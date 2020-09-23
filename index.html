@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body id="app">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-left">
+          <img src="./images/linkedin1.svg" alt="Logo" class="navbar-logo" />
+
+          <div class="navbar-search-wrapper">
+            <img src="./images/search.svg" alt="" />
+            <input class="navbar-search" type="text" placeholder="Search" />
+          </div>
+        </div>
+
+        <div class="navbar-mid">
+          <ul class="navbar-links">
+            <li class="navbar-link-item active">
+              <img
+                class="navbar-link-item-icon"
+                src="./images/home.svg"
+                alt="Icon"
+              />
+              <span class="navbar-link-item-text">Home</span>
+            </li>
+            <li class="navbar-link-item">
+              <img
+                class="navbar-link-item-icon"
+                src="./images/users.svg"
+                alt=""
+              />
+            </li>
+            <li class="navbar-link-item">
+              <img
+                class="navbar-link-item-icon"
+                src="./images/briefcase.svg"
+                alt=""
+              />
+            </li>
+            <li class="navbar-link-item">
+              <img
+                class="navbar-link-item-icon"
+                src="./images/message-square.svg"
+                alt=""
+              />
+            </li>
+            <li class="navbar-link-item">
+              <img
+                class="navbar-link-item-icon"
+                src="./images/bell.svg"
+                alt=""
+              />
+            </li>
+            <li class="navbar-link-item">
+              <img
+                class="navbar-link-item-icon"
+                src="./images/grid.svg"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div class="navbar-right">
+          <div class="navbar-user">
+            <div class="navbar-user-info">
+              <p class="navbar-user-name">Cameron Williamson</p>
+              <span class="navbar-user-status">Online</span>
+            </div>
+            <div class="navbar-avatar-wrapper">
+              <img src="./images/avatar.png" alt="Cameron Williamson" />
+              <img
+                src="./images/chevron-down.svg"
+                alt=""
+                class="chevron-down-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main" class="main">
+      <section class="left">
+        <div class="card-profile">
+          <header class="card-profile-top">
+            <img src="./images/card-profile-avatar.png" alt="" />
+            <p>Cameron Williamson</p>
+            <span>Business Analyst</span>
+          </header>
+          <footer class="card-profile-bottom">
+            <ul class="profile-view-list">
+              <li class="profile-view-list-item">
+                <span class="key">Who viewed your profile</span>
+                <span class="value">90</span>
+              </li>
+              <li class="profile-view-list-item">
+                <span class="key">Views of your post</span>
+                <span class="value">627</span>
+              </li>
+            </ul>
+          </footer>
+        </div>
+
+        <div class="card-hashtag box">
+          <div class="card-hashtag-header">
+            <h2 class="title">Newest</h2>
+          </div>
+          <ul class="card-hashtag-items">
+            <li class="card-hashtag-item"><span class="hash">#</span> money</li>
+            <li class="card-hashtag-item"><span class="hash">#</span> money</li>
+            <li class="card-hashtag-item"><span class="hash">#</span> money</li>
+            <li class="card-hashtag-item"><span class="hash">#</span> money</li>
+          </ul>
+          <div class="card-hashtag-header">
+            <h2 class="title">Group</h2>
+            <div class="status-wrapper">
+              <span class="status">Active</span>
+              <img src="./images/chevron-down.svg" alt="" />
+            </div>
+          </div>
+
+          <ul class="card-hashtag-items">
+            <li class="card-hashtag-item">
+              <img src="./images/users-2.svg" alt="" />
+              <p>Android Developers Group</p>
+            </li>
+            <li class="card-hashtag-item">
+              <img src="./images/users-2.svg" alt="" />
+              <p>Android Developers Group</p>
+            </li>
+            <li class="card-hashtag-item">
+              <img src="./images/users-2.svg" alt="" />
+              <p>Android Developers Group</p>
+            </li>
+            <li class="card-hashtag-item">
+              <img src="./images/users-2.svg" alt="" />
+              <p>Android Developers Group</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card-event box">
+          <h2>Add Event</h2>
+          <img src="./images/plus.svg" alt="" />
+        </div>
+
+        <div class="card-more box">
+          <p>Find more</p>
+        </div>
+      </section>
+      <section class="mid">
+        <div class="card-create-post box">
+          <textarea
+            class="card-create-post-editor"
+            placeholder="Create Post..."
+          ></textarea>
+          <ul class="card-create-post-actions">
+            <li class="card-create-post-actions-item">
+              <img src="./images/camera.svg" alt="" />
+              <p>Photo</p>
+            </li>
+            <li class="card-create-post-actions-item">
+              <img src="./images/camera.svg" alt="" />
+              <p>Video</p>
+            </li>
+            <li class="card-create-post-actions-item">
+              <img src="./images/camera.svg" alt="" />
+              <p>Event</p>
+            </li>
+            <li class="card-create-post-actions-item">
+              <img src="./images/camera.svg" alt="" />
+              <p>Writer Articles</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card-filter box">
+          <p>Filter post by:</p>
+          <div class="filter-status">
+            <span>Popular</span>
+            <img src="./images/chevron-down.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="card-post box">
+          <div class="card-post-top">
+            <div class="card-post-top-avatar">
+              <img src="./images/post-avatar.png" alt="" />
+            </div>
+            <div class="card-post-top-user">
+              <h3 class="post-user">Brooklyn Simmons</h3>
+              <p class="post-user-job">UI/UX Designer at Freelance</p>
+              <p class="post-time">7 hour ago</p>
+            </div>
+            <img src="./images/more-horizontal.png" alt="" />
+          </div>
+
+          <div class="card-post-content">
+            <p>
+              He said, Design is not just what it looks and feels like. Design
+              is how it work
+            </p>
+            <p><span class="tags">#stevejobs #design #apple</span></p>
+            <img src="./images/Steve-Jobs-Quotes-1 1.png" alt="" />
+          </div>
+
+          <ul class="card-post-bottom-infos">
+            <li class="card-post-bottom-info-item">
+              <img class="icon-heart" src="./images/heart.svg" alt="" />
+            </li>
+            <li class="card-post-bottom-info-item">
+              <img class="icon-like" src="./images/thumbs-up.svg" alt="" />
+            </li>
+            <div class="card-post-info">
+              <p class="like-count">172</p>
+              <p class="comment-count">10 Comment</p>
+            </div>
+          </ul>
+
+          <ul class="card-post-bottom-actions">
+            <li>
+              <img src="./images/thumbs-up-2.svg" alt="" />
+              <span>Like</span>
+            </li>
+            <li>
+              <img src="./images/message-square-2.svg" alt="" />
+              <span>Comment</span>
+            </li>
+            <li>
+              <img src="./images/share-2.svg" alt="" />
+              <span>Share</span>
+            </li>
+            <li>
+              <img src="./images/send-1.svg" alt="" />
+              <span>Send</span>
+            </li>
+          </ul>
+
+          <div class="card-post-comment">
+            <div class="card-post-comment-user">
+              <img src="./images/comment-user.png" alt="" />
+            </div>
+            <div class="card-post-comment-area-wrapper">
+              <textarea
+                class="card-post-comment-area"
+                placeholder="Write comment"
+              ></textarea>
+              <img src="./images/comment-camera.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="card-post box">
+          <div class="card-post-top">
+            <div class="card-post-top-avatar">
+              <img src="./images/post-avatar.png" alt="" />
+            </div>
+            <div class="card-post-top-user">
+              <h3 class="post-user">Brooklyn Simmons</h3>
+              <p class="post-user-job">UI/UX Designer at Freelance</p>
+              <p class="post-time">7 hour ago</p>
+            </div>
+            <img src="./images/more-horizontal.png" alt="" />
+          </div>
+
+          <div class="card-post-content">
+            <p>
+              He said, Design is not just what it looks and feels like. Design
+              is how it work
+            </p>
+            <p><span class="tags">#stevejobs #design #apple</span></p>
+            <img src="./images/Steve-Jobs-Quotes-1 1.png" alt="" />
+          </div>
+
+          <ul class="card-post-bottom-infos">
+            <li class="card-post-bottom-info-item">
+              <img class="icon-heart" src="./images/heart.svg" alt="" />
+            </li>
+            <li class="card-post-bottom-info-item">
+              <img class="icon-like" src="./images/thumbs-up.svg" alt="" />
+            </li>
+            <div class="card-post-info">
+              <p class="like-count">172</p>
+              <p class="comment-count">10 Comment</p>
+            </div>
+          </ul>
+
+          <ul class="card-post-bottom-actions">
+            <li>
+              <img src="./images/thumbs-up-2.svg" alt="" />
+              <span>Like</span>
+            </li>
+            <li>
+              <img src="./images/message-square-2.svg" alt="" />
+              <span>Comment</span>
+            </li>
+            <li>
+              <img src="./images/share-2.svg" alt="" />
+              <span>Share</span>
+            </li>
+            <li>
+              <img src="./images/send-1.svg" alt="" />
+              <span>Send</span>
+            </li>
+          </ul>
+
+          <div class="card-post-comment">
+            <div class="card-post-comment-user">
+              <img src="./images/comment-user.png" alt="" />
+            </div>
+            <div class="card-post-comment-area-wrapper">
+              <textarea
+                class="card-post-comment-area"
+                placeholder="Write comment"
+              ></textarea>
+              <img src="./images/comment-camera.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="right">
+        <div class="card-feeds box">
+          <h2 class="card-feeds-title">Add to Your Feeds</h2>
+          <ul class="card-feeds-list">
+            <li class="card-feeds-list-item">
+              <img
+                class="card-feeds-list-item-logo"
+                src="./images/feed-logo-1.png"
+                alt=""
+              />
+              <div class="card-feeds-list-item-company-info">
+                <h3 class="feed-title">Techin Asia Indonesia</h3>
+                <p class="feed-desc">Corporate, Online Media</p>
+              </div>
+              <img
+                class="card-feeds-list-item-add"
+                src="./images/plus.svg"
+                alt=""
+              />
+            </li>
+            <li class="card-feeds-list-item">
+              <img
+                class="card-feeds-list-item-logo"
+                src="./images/feed-logo-1.png"
+                alt=""
+              />
+              <div class="card-feeds-list-item-company-info">
+                <h3 class="feed-title">Techin Asia Indonesia</h3>
+                <p class="feed-desc">Corporate, Online Media</p>
+              </div>
+              <img
+                class="card-feeds-list-item-add"
+                src="./images/plus.svg"
+                alt=""
+              />
+            </li>
+            <li class="card-feeds-list-item">
+              <img
+                class="card-feeds-list-item-logo"
+                src="./images/feed-logo-1.png"
+                alt=""
+              />
+              <div class="card-feeds-list-item-company-info">
+                <h3 class="feed-title">Techin Asia Indonesia</h3>
+                <p class="feed-desc">Corporate, Online Media</p>
+              </div>
+              <img
+                class="card-feeds-list-item-add"
+                src="./images/plus.svg"
+                alt=""
+              />
+            </li>
+          </ul>
+          <a href="#" class="card-feeds-all-recommendations"
+            >See All Recommendation</a
+          >
+        </div>
+
+        <div class="card-advertisement box">
+          <div class="card-advertisement-header">
+            <div class="top">
+              <h2 class="title">Advertisement</h2>
+              <img src="./images/more-horizontal.png" alt="" />
+            </div>
+            <p class="card-advertisement-desc">
+              Get the latest news and job vacancies
+            </p>
+          </div>
+
+          <div class="card-advertisement-content">
+            <img src="./images/avatar-big.png" alt="" />
+            <img src="./images/website-thumbnail-image.png" alt="" />
+          </div>
+          <p class="card-advertisement-text">
+            Cameron, Get update from <span>Interaction Design Foundations</span>
+          </p>
+
+          <a class="card-advertisement-visit" href="#">Visit Now</a>
+        </div>
+
+        <div class="helper-links">
+          <a class="helper-links-item" href="#">
+            <span>About</span>
+          </a>
+          <a class="helper-links-item" href="#">
+            <span>Help Center</span>
+          </a>
+          <a class="helper-links-item" href="#">
+            <span>Accessibility</span>
+          </a>
+          <a class="helper-links-item" href="#">
+            <span>Privacy & Terms</span>
+          </a>
+          <br />
+          <a class="helper-links-item" href="#">
+            <span>Ad Choices</span>
+          </a>
+          <a class="helper-links-item" href="#">
+            <span>Advertising </span>
+          </a>
+          <a class="helper-links-item" href="#">
+            <span>Business Services </span>
+          </a>
+          <br />
+          <a class="helper-links-item" href="#">
+            <span>Get the LinkedIn app</span>
+          </a>
+          <a class="helper-links-item" href="#">
+            <span>More</span>
+          </a>
+        </div>
+
+        <div class="page-copyright">
+          <p class="page-copyright-text">LinkedIn Corporation © 2020</p>
+          <a href="#">
+            <img src="./images/linkedin1.svg" alt="" width="44" height="14" />
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
